@@ -1,0 +1,70 @@
+{
+    "sportInformation":
+      [
+        {
+        "SportType":"Tennis",
+        "Benefits":"Increasing aerobic capacities, lowering body fat, improving muscle tone, strength and flexibility and increasing reaction times.",
+        "Image":"sportPictures/tennis.jpg"
+        },
+        {
+        "SportType":"Archery",
+        "Benefits":"Improves your hand-eye coordination, improves your upper strength, and improves your confidence.",
+        "Image":"sportPictures/archery.jpg"
+        },	
+        {
+        "SportType":"Swimming",
+        "Benefits":"Builds endurance, muscle strength and cardiovascular fitness, helps maintain a healthy weight, healthy heart and lungs, alleviating stress and providing good low-impact therapy for some injuries and conditions.",
+        "Image":"sportPictures/swimming.jpg"
+        },
+        {
+        "SportType":"Rowing",
+        "Benefits":"Improves muscle strength, great for the heart and lungs and low-impact and low-risk activity.",
+        "Image":"sportPictures/rowing.jpg"
+        },
+        {
+        "SportType":"Judo",
+        "Benefits":"Good static and dynamic balance, increased speed and agility and increased self-confidence.",
+        "Image":"sportPictures/judo.jpg"
+        },
+        {
+        "SportType":"Gymnastics",
+        "Benefits":"Increased flexibility, bone health and build personal discipline",
+        "Image":"sportPictures/gymnastics.jpg"
+        },	
+        {
+        "SportType":"Riding",
+        "Benefits":"Core strength, balance and co-ordination, muscle tone and improved posture.",
+        "Image":"sportPictures/equestrian.jpg"
+        },
+        {
+        "SportType":"Cycling",
+        "Benefits":"Increased cardiovascular fitness, improved joint mobility, improved posture and coordination and decreased body fat levels.",
+        "Image":"sportPictures/cycling.jpg"
+        },
+        {
+        "SportType":"Volleyball",
+        "Benefits":"Builds coordination, balance, and speed. Improved Mental Health and increased aerobic activity",
+        "Image":"sportPictures/volleyball.jpg"
+        },
+        {
+        "SportType":"Basketball",
+        "Benefits":"Build endurance, improve balance and coordination and develop concentration and self-discipline.",
+        "Image":"sportPictures/basketball.jpg"
+        },
+        {
+        "SportType":"Jogging",
+        "Benefits":"Help to build strong bones, improve cardiovascular fitness and strengthen muscles.",
+        "Image":"sportPictures/jogging.jpg"
+        },
+        {
+        "SportType":"Football",
+        "Benefits":"Improves aerobic capacity, increases bone strength and promotes teamwork and sharing.",
+        "Image":"sportPictures/football.jpg"
+        },
+        {
+        "SportType":"Golf",
+        "Benefits":"Mental well-being, reducing stress and anxiety and weight loss.",
+        "Image":"sportPictures/golf.jpg"
+        }
+      ]  
+    }
