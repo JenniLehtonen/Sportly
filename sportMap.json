@@ -1,0 +1,335 @@
+{
+	"info":"Finnish sport clubs in the South Finland",
+	"sports": [
+		{
+			"sport":"Football",
+			"lat":61.267515,
+			"lng":24.021075,
+			"club":"FC Haka Oy",
+			"address":"Tehtaankatu 9 37600 Valkeakoski",
+			"phoneNumber":"040 4841934",
+			"email":"toimisto@fchaka.fi",
+			"website":"https://fchaka.fi"
+		},
+		{
+			"sport":"Football",
+			"lat":61.491845,
+			"lng":23.817146,
+			"club":"Ilves",
+			"address":"Rieväkatu 12, 33540 Tampere",
+			"phoneNumber":"040 710 8466",
+			"email":"ilvesry@ilves.fi",
+			"website":"https://ilvesedustus.fi"
+			},
+		{
+			"sport":"Football",
+			"lat":60.177993,
+			"lng":24.924595,
+			"club":"HIFK Fotboll",
+			"address":"Döbelninkatu 2 B 17c 00260 Helsinki",
+			"phoneNumber":"050 3257110",
+			"email":"info[at]hifkfotboll.fi",
+			"website":"https://hifkfotboll.fi"
+		},
+		{
+			"sport":"Golf",
+			"lat":61.298209,
+			"lng":23.777621,
+			"club":"Hiisi-golf",
+			"address":"Vaihmalantie 120, 37500 Lempäälä",
+			"phoneNumber":"040 5737 917 / palvelupäällikkö",
+			"email":" eeva.isotalo(at)farmigolf.com / palvelupäällikkö",
+			"website":"http://www.golftalma.fi"
+		},
+		{
+			"sport":"Golf",
+			"lat":60.814595,
+			"lng":23.235866,
+			"club":"Loimijoki Golf",
+			"address":"Jaakkolantie 190 32100 Ypäjä",
+			"phoneNumber":"050-590 2479 / toiminnan johtaja",
+			"email":"pauliina.pontinen[at]loimijokigolf.fi / toiminnan johtaja",
+			"website":"https://www.loimijokigolf.fi"
+		},
+		{
+			"sport":"Golf",
+			"lat":61.116407,
+			"lng":26.023941,
+			"club":"Vierumäen golf",
+			"address":"Kaskelantie 10, 19120 Vierumäki",
+			"phoneNumber":"050 525 7512 / puheenjohtaja",
+			"email":"vigs@vierumaki.fi",
+			"website":"https://www.vigs.fi"
+		},
+		{
+			"sport":"Basketball",
+			"lat":61.478146,
+			"lng":23.512129,
+			"club":"BC Nokia",
+			"address":"Välikatu 19 LH 11 37100 Nokia",
+			"phoneNumber":"040 1662477 / toiminnan johtaja",
+			"email":"henri.hirvikoski@bcnokia.com / toiminnan johtaja",
+			"website":"https://www.bcnokia.com"
+		},
+		{
+			"sport":"Basketball",
+			"lat":60.398600,
+			"lng":24.736236,
+			"club":"BC Klaukkala",
+			"address":"Härkäpurontie 19 A, 01800 Klaukkala",
+			"phoneNumber":" 044 0327 248 (Petri Parkkinen)",
+			"email":"sami@bcklaukkala.fi",
+			"website":"https://www.bcklaukkala.fi"
+		},
+		{
+			"sport":"Basketball",
+			"lat":60.237881,
+			"lng":24.929013,
+			"club":"Pakilan Visa Ry",
+			"address":"Pakilantie 55 K7 00660 Helsinki",
+			"phoneNumber":"050 - 352 8971",
+			"email":"puheenjohtaja(at)pakilanvisa.fi",
+			"website":"https://www.pakilanvisa.fi"
+		},
+		{
+			"sport":"Volleyball",
+			"lat":60.512702,
+			"lng":25.254975,
+			"club":"Blues Volley",
+			"address":"Tiilikuja 21 A, 07190 Halkia",
+			"phoneNumber":"050 599 3288 / puheenjohtaja",
+			"email":"partti.mikko[at]kolumbus.fi / puheenjohtaja",
+			"website":"https://www.bluesvolley.com"
+		},
+		{
+			"sport":"Volleyball",
+			"lat":60.811110,
+			"lng":23.760251,
+			"club":"Tammelan Ryske",
+			"address":"Kyöpelintie 20, 31300 Tammela",
+			"phoneNumber":"0400477144 / puheenjohtaja",
+			"email":"club(at)tammelanryske.fi",
+			"website":"https://www.tammelanryske.fi"
+		},
+		{
+			"sport":"Volleyball",
+			"lat":61.476087,
+			"lng":24.007618,
+			"club":"LP Kangasala",
+			"address":"Pitkäjärven koulu Vatialantie 4 36240 Kangasala",
+			"phoneNumber":"0400 799298",
+			"email":"jorma.malm@jmalm.fi",
+			"website":"https://lpkangasala.net"
+		},
+		{
+			"sport":"Cycling",
+			"lat":61.502107,
+			"lng":23.797551,
+			"club":"Tampereen Polkypyöräilijät Ry",
+			"address":"Ilmarinkatu 41, 33500 Tampere",
+			"phoneNumber":" ",
+			"email":" info@tarakka.fi",
+			"website":"https://tarakka.fi"
+		},
+		{
+			"sport":"Cycling",
+			"lat":60.423438,
+			"lng":25.092629,
+			"club":"Pyöräilyclub Zeus",
+			"address":"Taikatie 14 D 18 04230 Kerava",
+			"phoneNumber":" ",
+			"email":"pyorailyclubzeus(at)gmail.com",
+			"website":"https://zeus.sporttisaitti.com"
+		},
+		{
+			"sport":"Cycling",
+			"lat":60.335145,
+			"lng":24.287152,
+			"club":"Uudenmaan pyöräiljät",
+			"address":"Nallikuja 10 03100 Nummela",
+			"phoneNumber":"040-5409413/ Miika Jäntti",
+			"email":"uudenmaan.pyorailijat@gmail.com",
+			"website":"https://www.uudenmaanpyorailijat.com"
+		},
+		{
+			"sport":"Riding",
+			"lat":61.501635,
+			"lng":23.882123,
+			"club":"Tampereen ratsastusclub Ry",
+			"address":"Niihamankatu 18, 33560 Tampere",
+			"phoneNumber":"044 562 7223 / puheenjohtaja",
+			"email":"ansku.trs@gmail.com / puheenjohtaja",
+			"website":"https://www.tampereenratsastusclub.fi"
+		},
+		{
+			"sport":"Riding",
+			"lat":60.458705,
+			"lng":25.055490,
+			"club":"Järvenpään ratsastusclub Ry",
+			"address":"Tuulimyllyntie 2 04400 Järvenpää",
+			"phoneNumber":"050-570 5012",
+			"email":"jrs.toimisto (at) kolumbus.fi",
+			"website":"http://www.jarvenpaanratsastusclub.fi"
+		},
+		{
+			"sport":"Riding",
+			"lat":60.379715,
+			"lng":23.145805,
+			"club":"Salon ratsastusclub Ry",
+			"address":"Uskelankirkkotie 9 24100 SALO",
+			"phoneNumber":" ",
+			"email":"info@salonratsastusclub.fi",
+			"website":"https://www.salonratsastusclub.fi"
+		},
+		{
+			"sport":"Gymnastics",
+			"lat":60.447226,
+			"lng":22.282978,
+			"club":"Turun riennon voimistelu",
+			"address":"Uudenmaankatu 16, 20500 Turku",
+			"phoneNumber":"0400-262733",
+			"email":"trvoimistelu@gmail.com",
+			"website":"https://trvoimistelu.sporttisaitti.com"
+		},
+		{
+			"sport":"Gymnastics",
+			"lat":60.183635,
+			"lng":24.925955,
+			"club":"Suomen Taitovoimisteluklubi Ry",
+			"address":"Paavo Nurmen kuja 1 00250 Helsinki",
+			"phoneNumber":"050 341 7341 / toiminnan johtaja",
+			"email":"voimistelu@stvk.fi",
+			"website":"https://www.stvk.fi"
+		},
+		{
+			"sport":"Gymnastics",
+			"lat":61.502666,
+			"lng":23.598910,
+			"club":"Tampereen voimistelijat",
+			"address":"Tesomankatu 33 Tampere",
+			"phoneNumber":"044 067 4532 / clubsihteeri",
+			"email":"toimisto@tampereenvoimistelijat.fi",
+			"website":"https://tampereenvoimistelijat.fi"
+		},
+		{
+			"sport":"Judo",
+			"lat":60.991547,
+			"lng":25.513522,
+			"club":"Holjutai Ry",
+			"address":"Terveystie 8 A 15870 Hollola",
+			"phoneNumber":"044 244 8916",
+			"email":"putkonenesa3(at)gmail.com",
+			"website":"https://www.holjutai.fi"
+		},
+		{
+			"sport":"Judo",
+			"lat":60.992998,
+			"lng":24.430880,
+			"club":"Hämeenlinnan judoclub",
+			"address":"Kiekkoritarinkuja 7 Hämeenlinna",
+			"phoneNumber":"040 518 7336 / puheenjohtaja",
+			"email":"esa.loytynoja@gmail.com / puheenjohtaja",
+			"website":"https://www.judoclub.fi"
+		},
+		{
+			"sport":"Judo",
+			"lat":60.459473,
+			"lng":26.219313,
+			"club":"Loviisan seudun judoclub",
+			"address":"Chiewitzinkatu 13 07900  Loviisa",
+			"phoneNumber":"050-3669444 / puheenjohtaja",
+			"email":"puheenjohtaja(at)arashi.fi / puheenjohtaja",
+			"website":"https://www.arashi.fi"
+		},
+		{
+			"sport":"Rowing",
+			"lat":60.179107,
+			"lng":24.912251,
+			"club":"Soutuclub SMARK rys",
+			"address":"Merikannontie 4 00260 Helsinki",
+			"phoneNumber":"050-5722 318",
+			"email":"toimisto(at)smark.fi",
+			"website":"http://smark.fi"
+		},
+		{
+			"sport":"Swimming",
+			"lat":60.228945,
+			"lng":25.055760,
+			"club":"Uinticlub Kuhat",
+			"address":"Kansantie 33 a 00680 Helsinki",
+			"phoneNumber":"+358505017170 / puheenjohtaja",
+			"email":"anja.tuomioja-busk@luukku.com / puheenjohtaja",
+			"website":"https://www.kuhat.com"
+		},
+		{
+			"sport":"Swimming",
+			"lat":61.465270,
+			"lng":24.041756,
+			"club":"Kangasalan Uinticlub Ry",
+			"address":"Kotakuja 1, 36200 Kangasala",
+			"phoneNumber":"040-523 9652 / puheenjohtaja",
+			"email":"seppo.kataja(ät)hotmail.fi / puheenjohtaja",
+			"website":"http://www.uinticlub.fi"
+		},
+		{
+			"sport":"Tennis",
+			"lat":61.508656,
+			"lng":23.843565,
+			"club":"Tampereen tennisclub",
+			"address":"Toimelankatu 8 33560 Tampere",
+			"phoneNumber":"03-313 843 20",
+			"email":"tennisclub[at]tampereentennisclub.fi",
+			"website":"https://www.tampereentennisclub.fi"
+		},
+		{
+			"sport":"Tennis",
+			"lat":60.485981,
+			"lng":25.083766,
+			"club":"Järvenpään tennisclub",
+			"address":"Kuuselankatu 2, 04430 Järvenpää",
+			"phoneNumber":"040 589 2725 / puheenjohtaja",
+			"email":"mikko.kolehmainen(at)outlook.com / puheenjohtaja",
+			"website":"https://www.jarvenpaantennisclub.fi"
+		},
+		{
+			"sport":"Tennis",
+			"lat":61.006835,
+			"lng":24.443842,
+			"club":"Hämeenlinnan tennisclub",
+			"address":"Ojoistenkatu 3, 13600 Hämeenlinna",
+			"phoneNumber":"040 084 6956 / puheenjohtaja",
+			"email":"perttikivi(at)hotmail.com / puheenjohtaja",
+			"website":"https://www.hameenlinnantennisclub.fi"
+		},
+		{
+			"sport":"Archery",
+			"lat":61.504155,
+			"lng":23.777041,
+			"club":"Tampereen jousiampujat",
+			"address":"Ainonkatu 1, 33100 Tampere",
+			"phoneNumber":"0405082630",
+			"email":"info(at)tampereenjousiampujat.net",
+			"website":"http://www.tampereenjousiampujat.net"
+		},
+		{
+			"sport":"Archery",
+			"lat":61.504155,
+			"lng":23.777041,
+			"club":"Jousiammuntaclub Artemis ry",
+			"address":"Hietakummuntie 11, 00700 Helsinki",
+			"phoneNumber":"040 557 0667 / puheenjohtaja",
+			"email":"juusoatartemishelsinki.com / puheenjohtaja",
+			"website":"http://www.artemishelsinki.com"
+		},
+		{
+			"sport":"Archery",
+			"lat":60.246394,
+			"lng":23.062240,
+			"club":"Jousiammuntaclub Ascella ry",
+			"address":"Sauruntie 430, 25520 Salo",
+			"phoneNumber":"045 8536809 / puheenjohtaja",
+			"email":" ",
+			"website":"http://www.ascella.fi"
+		}
+	]
+}
