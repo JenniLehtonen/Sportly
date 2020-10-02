@@ -1,0 +1,234 @@
+body{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+header {
+    padding: 5px 60px 45px;
+    text-align: center;
+    background-color: #1abc9c;
+    color: white;
+    font-size: 30px;
+}
+nav{
+    width: 100%;
+    text-align: center;
+}
+#pageContainer{
+	position: relative;
+	padding-bottom: 2rem; 
+	min-height: 100vh;
+}
+#content-wrap {
+  padding-bottom: 2.5rem;    
+}
+footer {
+    position: absolute;
+    height: 2 rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#858585;
+    color: white;
+    text-align: center;
+}
+button { 
+    color: white !important;
+    padding: 8px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 7px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #1abc9c; 
+    color: black; 
+    border: 2.5px solid #1abc9c;
+}
+.navbutton { 
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 7px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black !Important; 
+    border: 2.5px solid #1abc9c;
+}
+
+button:hover {
+    background-color: #1abc9c;
+    color: white;
+}
+button:focus{
+	outline: black;
+	border: 2px solid black;
+	color: white;
+	background-color: #1abc9c;
+}
+#sport{
+	height:2rem;
+	font-size: 1rem;
+}
+#sportResult1, #sportResult2{
+	height: 250px;
+	overflow:hidden;
+}
+input[type=number]{
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+canvas{
+	position: relative; 
+	margin: auto; 
+	height: 70vh; 
+	width: 80vw;
+}
+img{
+	width: 55%;
+	border-radius:3px;
+}
+#s1, #s2, #s3{
+	margin-top:2rem;
+}
+#s2, #s3{
+	 text-align: center;
+}
+#bmiResult, #sportResult{
+	margin-top: 10px;
+	resize: none;
+	text-align: center;
+	padding: 20px;
+	border-radius: 5px;
+	font-size: 15px;
+	pointer-events: none;
+}
+#sportResult{
+	height: 3em;
+    width: 35em;
+} 
+#sportResults{
+	width:200px;
+	height:300px; 
+	color:black; 
+	position:relative; 
+	overflow: auto;
+}
+label{
+	font-size: 18px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.flex-container-sport {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-container-sport > div {
+  background-color: #f1f1f1;
+  width: 50%;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#rightContainer{
+	width: 35%;
+}
+#middleContainer{
+	width:25%;
+	padding-top: 25px;
+}
+#leftContainer{
+	padding-left: 50px;
+	width:25%;
+	padding-top: 25px;
+}
+
+#mapid{ 
+    height: 500px; 
+    width: 100%;
+	margin-top:0;
+} 
+
+.custom-popup .leaflet-popup-content-wrapper {
+    background-color: white;
+    font-size:14px;
+    line-height:18px;
+    position: relative;
+    top: -30px
+  }
+.custom-popup .leaflet-popup-content-wrapper a {
+    color:#000070;
+  }
+.custom-popup .leaflet-popup-tip-container {
+    width:30px;
+    height:14px;
+  }
+
+  
+@media screen and (max-width: 992px) {  /*Media queryt-->*/
+  .navbutton1{
+	padding: 5px;
+	margin-top:8px;
+  }
+   header{
+	padding: 5px 50px 25px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 20px;
+  }
+   .flex-container > div {
+	width: 100%;
+  }
+   #sportResult{
+	height: 5.7em;
+    width: 15em;
+  }
+  .flex-container-sport > div {
+    background-color: #f1f1f1;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    text-align: center;
+  }
+  #sportResult1, #sportResult2{
+	height: 150px;
+	overflow: auto;
+  }
+  #rightContainer{
+	width: 100%;
+  }
+  #middleContainer{
+	text-align: center;
+	width: 100%;
+	padding-left:1rem;
+	padding-top: 0;
+  }
+  #leftContainer{
+	text-align: center;
+	width: 100%;
+	padding-left:1rem;
+  }
+  h2{
+	  font-size: 1.4rem;
+  }
+  .navbutton { 
+    padding: 10px 26px;
+    font-size: 14px;
+    margin: 5px 1px;
+    border: 1.5px solid #1abc9c;
+  }
+
+}
+
