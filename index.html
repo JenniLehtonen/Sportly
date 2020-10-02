@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv='X-UA-Compatible' content='IE-edge'>
+	<meta charset="utf-8">
+	<title>Jenni Lehtonen projekti</title>
+	<!--Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>-->
+	<!--Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>-->
+	<!--Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>-->
+	<!--Icons made by <a href="https://www.flaticon.com/free-icon/gymnastics_3116176" title="smalllikeart">smalllikeart</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>-->
+	<!--Icons made by <a href="https://www.flaticon.com/free-icon/judo_3080971" title="iconixar">iconixar</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="https://unpkg.com/react@15.3.2/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-core@5.8.38/browser.min.js"></script>
+	
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+		integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+		crossorigin=""/>
+
+		<!-- Make sure you put this AFTER Leaflet's CSS -->
+		<script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+		integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+		crossorigin=""></script>
+</head>
+<body onload="drawchart()">
+<div id="pageContainer">
+ <div id="content-wrap">
+	<header>
+		<h1>Sportly</h1>
+		<p>Take care of your health with sportly</p>
+    </header>
+	<nav>
+		<button id="b1" class="navbutton">Activity</button>
+		<button id="b2" class="navbutton">Health</button>
+		<button id="b3" class="navbutton">Sport</button>
+	</nav>
+	
+	 <section id="s1"> <!--Activity-osio-->
+	 <h2 style="text-align:center;">Check your weekly sport routine (hours per day)</h2>
+		<div class="flex-container">
+		<div id="leftContainer"> <!--Jaettu containereihin sivun asettelun vuoksi. (Flexboxes)-->
+			<label for="mon">Monday</label>
+			<input id="mon" type="number" placeholder="Monday" size="4" maxlength="4"><br>
+			<label for="tue">Tuesday</label>
+			<input id="tue" type="number" placeholder="Tuesday" size="4" maxlength="4"><br>
+			<label for="wed">Wednesday</label>
+			<input id="wed" type="number" placeholder="Wednesday" size="4" maxlength="4"><br>
+			<label for="thu">Thursday</label>
+			<input id="thu" type="number" placeholder="Thursday" size="4" maxlength="4"><br>
+		</div>
+		<div id="middleContainer">
+			<label for="fri">Friday</label>
+			<input id="fri" type="number" placeholder="Friday" size="4" maxlength="4"><br>
+			<label for="sat">Saturday</label>
+			<input id="sat" type="number" placeholder="Saturday" size="4" maxlength="4"><br>
+			<label for="sun">Sunday</label>
+			<input id="sun" type="number" placeholder="Sunday" size="4" maxlength="4"><br>
+			<button onclick="drawchart(1)" style="text-align:center;">Draw chart</button>
+			<button onclick="drawchart(2)" style="text-align:center;">Reset</button>
+		</div>
+		<div id="rightContainer">
+			<canvas id="myChart" aria-label="Sport chart" role="img"></canvas>
+		</div>
+		</div>
+	  </section>
+	  
+	  <section id="s2"> <!--Health-osio-->
+	  <div id="bmiResults"></div>
+	  <br><br>
+	  </section>
+	  
+	  <section id="s3"> <!--Sport-osio-->
+		<div class="ui-widget">
+			<label for="sport">Select a sport that pleases you and then hit Search information </label><br>
+			<input id="sport">
+			<button type="button" id="sportButton" onclick="loadJSON()">Search information</button>
+		</div><br><br><br>
+		<div class="flex-container-sport">
+			<div id="sportResult1"></div>
+			<div id="sportResult2"></div>
+		</div>
+		<h3 style="margin-top:3.5rem;">Check the sport clubs in the South Finland that might interest you</h3>
+		<div class='custom-popup' id="mapid"></div>
+	  </section>
+	  </div>
+<footer>
+  <p> ©2020 Jenni Lehtonen</p>
+</footer>
+</div>
+	<script>
+		$(document).ready(function(){
+			$("#s2, #s3").hide(); //Piilotetaan oletuksena kaikki muut osiot paitsi Activity osio
+			$("#sportResult1, #sportResult2").hide();
+			$("#b1").click(function(){
+			$("#s1").toggle();
+			});
+			$("#b2").click(function(){
+			$("#s2").toggle();
+			});
+			$("#b3").click(function(){
+			$("#s3").toggle();
+			
+			$("#sportButton").click(function(){  //Näytetään sport-osiossa tuloskohta, kun jotain urheilulajia on haettu
+			$("#sportResult1, #sportResult2").show();
+			});
+			
+			let syote = $("#sport").val();
+										         //jQuery autocomplete
+			$.ajax({ url: "sport-suggest.php",
+			data: {'q':syote},
+			type: 'GET'    
+			});
+			$( "#sport" ).autocomplete({
+			source: "sport-suggest.php",
+			minLength: 1
+		});
+		});
+		}); //document.ready
+		
+	</script>
+	<script src="activityScript.js"></script>
+	<script src="sportScript.js"></script>
+	<script type="text/babel" src="healthScript.js"></script>
+</body>
+</html>
