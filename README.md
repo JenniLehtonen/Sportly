@@ -1,6 +1,6 @@
 # Sportly
 This is a school project that I did in the summer of 2019. This markdown contains documentation both in English and in Finnish.
-1. [Description of the application (in Finnish)](#Sportly - Käyttöliittymän yleiskuvaus)
+1. [Sportly - Käyttöliittymän yleiskuvaus](#Description of the application (in Finnish))
 2. [Technical solutions of the application (in Finnish)](#Tekniset ratkaisut)
 # Sportly - Käyttöliittymän yleiskuvaus
 Sportly on sovellus, jonka ideana on tutustuttaa uusiin urheilulajeihin unohtamatta oman kunnon ja terveyden seuraamista. Sportly on jaettu kolmeen eri osioon: Activity, Health ja Sport. Activity-osiossa käyttäjä voi seurata omaa liikkumistaan visuaalisesti pylväsdiagrammilla. Tarkoitus on, että käyttäjä käy kirjaamassa joka päivältä liikunnan määrän ja viikon lopulla voi katsoa, miten on liikkunut viikon aikana. Health-osiossa käyttäjä voi laskea oman painoindeksinsä ja saa tuloksestaan palautetta. Tässä osiossa voi myös laskea, liikkuuko tarpeeksi viikon aikana. Sport-osiossa käyttäjä voi etsiä tietoa eri urheilulajien hyödyistä ja katsoa kartalta myös näiden urheilulajien seuroja Etelä-Suomessa. Tämän osion tarkoituksena on antaa tietoa ja saada kokeilemaan uutta urheilulajia.
