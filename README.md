@@ -5,6 +5,8 @@ Sportly on sovellus, jonka ideana on tutustuttaa uusiin urheilulajeihin unohtama
 Käyttöliittymässä on yhteensä kahdeksan eri tiedostoa: index.html, kaksi JSON-tiedostoa, yksi PHP-tiedosto, kolme JavaScript-tiedostoa ja CSS-tiedosto. JSON-tiedostojen tiedot on itse etsittyjä ja koottuja ja myös PHP-tiedostoon on muokattu sopivat arvot. Käyttöliittymän toiminnallisuuden rakentamisessa on käytetty puhdasta JavaScriptiä sekä Reactia ja siitä on tehty mahdollisimman monipuolinen laittamalla siihen kartta, diagrammi, laskentaa ja tiedonhaku-komponentti.
 
 Projektiin sisällytettyjä teknisiä ratkaisuja: chart.js pylväsdiagrammi, local storage, React, jQuery autocomplete plugin ja hieman muuta toiminnallisuutta myös jQuerylla, tietoa haetaan sekä PHP-tiedostosta että JSON-tiedostoista Ajaxilla ja sovelluksessa on leaflet/mapbox kartta, jossa itsessään on hieman toiminnallisuutta. Eri teknisten asioiden sisällyttämisen lisäksi sovellus on responsiivinen ja saavutettavuutta on paranneltu.
+
+Alla näkyy sovelluksen rakenne kuvina:
 ![documentationPicture1](palautus/rakenne.PNG "Documentation picture of the structure")
 ![documentationPicture2](palautus/activityOsio.PNG "Documentation picture of activity section")<br/><hr />
 ![documentationPicture3](palautus/healthOsio.PNG "Documentation picture of health section")<br/><hr />
