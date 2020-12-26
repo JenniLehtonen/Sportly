@@ -6,4 +6,4 @@ Käyttöliittymässä on yhteensä kahdeksan eri tiedostoa: index.html, kaksi JS
 
 Projektiin sisällytettyjä teknisiä ratkaisuja: chart.js pylväsdiagrammi, local storage, React, jQuery autocomplete plugin ja hieman muuta toiminnallisuutta myös jQuerylla, tietoa haetaan sekä PHP-tiedostosta että JSON-tiedostoista Ajaxilla ja sovelluksessa on leaflet/mapbox kartta, jossa itsessään on hieman toiminnallisuutta. Eri teknisten asioiden sisällyttämisen lisäksi sovellus on responsiivinen ja saavutettavuutta on paranneltu.
 
-![dokumentointi1](palautus/activityOsio.PNG) "Dokumentointi1")
+![dokumentointi1](palautus/activityOsio.PNG "Dokumentointi1")
