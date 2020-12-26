@@ -13,6 +13,7 @@ function loadJSON() {
  } 
  function showSportInformation(data){
      var sportValue=document.getElementById("sport").value;
+     console.log(sportValue);
     $.each(data.sportInformation, function(index, sport) {
         var tyyppi=sport.SportType;
           if (tyyppi==sportValue){  //Jos JSON-tiedoston arvo vastaa syöttökentän arvoa, haetaan JSON-tiedostosta sopiva tulos
