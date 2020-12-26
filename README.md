@@ -8,7 +8,7 @@ Projektiin sisällytettyjä teknisiä ratkaisuja: chart.js pylväsdiagrammi, loc
 
 Alla näkyy sovelluksen rakenne kuvina:
 ![documentationPicture1](palautus/rakenne.PNG "Documentation picture of the structure")
-![documentationPicture2](palautus/activityOsio.PNG "Documentation picture of activity section")<br/><hr />
-![documentationPicture3](palautus/healthOsio.PNG "Documentation picture of health section")<br/><hr />
+![documentationPicture2](palautus/activityOsio.PNG "Documentation picture of activity section")<hr />
+![documentationPicture3](palautus/healthOsio.PNG "Documentation picture of health section")<hr />
 ![documentationPicture4](palautus/sportOsio.PNG "Documentation picture of sport section")
 
