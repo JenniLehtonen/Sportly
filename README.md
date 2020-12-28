@@ -1,5 +1,7 @@
 # Sportly
 This is a school project that I did in the summer of 2020. This markdown contains documentation both in English and in Finnish.
+[Here you can watch a demo video of Sportly](https://jennilehtonen.github.io/Sportly/palautus/video.html)
+
 |Table of contents|
 |:------------- |
 |1. [Description of the application (in English)](#Sportly---description-of-the-user-interface)|
@@ -7,7 +9,6 @@ This is a school project that I did in the summer of 2020. This markdown contain
 |3. [Description of the application (in Finnish)](#Sportly---Käyttöliittymän-yleiskuvaus)|
 |4. [Technical solutions of the application (in Finnish)](#Tekniset-ratkaisut)|
 
-[Here you can watch a demo video of Sportly](https://jennilehtonen.github.io/Sportly/palautus/video.html)
 
 # Sportly - description of the user interface
 Sportly is an application in which the user can follow the amount of excercise they have done, check their BMI, check if they excercise enough during a week, search for the benefits of different sports and search for sport clubs in the South Finland. The application is divided into three sections: Activity, Health and Sport.
