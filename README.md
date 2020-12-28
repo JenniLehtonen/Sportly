@@ -7,6 +7,8 @@ This is a school project that I did in the summer of 2020. This markdown contain
 |3. [Description of the application (in Finnish)](#Sportly---Käyttöliittymän-yleiskuvaus)|
 |4. [Technical solutions of the application (in Finnish)](#Tekniset-ratkaisut)|
 
+![Video](palautus/Sportly.mp4)
+
 # Sportly - description of the user interface
 Sportly is an application in which the user can follow the amount of excercise they have done, check their BMI, check if they excercise enough during a week, search for the benefits of different sports and search for sport clubs in the South Finland. The application is divided into three sections: Activity, Health and Sport.
 
