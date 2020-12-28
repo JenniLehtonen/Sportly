@@ -1,5 +1,5 @@
 # Sportly
-This is a school project that I did in the summer of 2020. This markdown contains documentation both in English and in Finnish.
+This is a school project that I did in the summer of 2020. This markdown contains documentation both in English and in Finnish. <br/>
 [Here you can watch a demo video of Sportly](https://jennilehtonen.github.io/Sportly/palautus/video.html)
 
 |Table of contents|
