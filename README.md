@@ -1,5 +1,5 @@
 # Sportly
-This is a school project that I did in the summer of 2019. This markdown contains documentation both in English and in Finnish.
+This is a school project that I did in the summer of 2020. This markdown contains documentation both in English and in Finnish.
 |Table of contents|
 |:------------- |
 |1. [Description of the application (in English)](#Sportly---description-of-the-user-interface)|
