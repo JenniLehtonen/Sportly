@@ -1,5 +1,5 @@
 # Sportly
-This is a school project that I did in the summer of 2020. This markdown contains documentation both in English and in Finnish. <br/>
+This is a school project that I did in the summer of 2020. This markdown contains documentation both in English and in Finnish. The search field of the Sport page is not working now but you can watch the video in the link that is below and see how that search field was working in the summer.<br/>
 [Here you can watch a demo video of Sportly](https://jennilehtonen.github.io/Sportly/palautus/video.html)
 
 |Table of contents|
