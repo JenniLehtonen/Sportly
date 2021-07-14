@@ -2,7 +2,7 @@
 This is a school project that I did in the summer of 2020. This markdown contains documentation both in English and in Finnish. Notice: The search field of the Sport page is not working now but you can watch the video in the link that is below and see how that search field was working in the summer.<br/>
 [Here you can watch a demo video of Sportly](https://jennilehtonen.github.io/Sportly/palautus/video.html)
 
-You can visit the application [here](https://jennilehtonen.github.io/Sportly/).
+You can visit the application [here](https://jennilehtonen.github.io/Sportly/). Note: the map in the sport page doesn't work because I have deleted its the access token.
 
 |Table of contents|
 |:------------- |
