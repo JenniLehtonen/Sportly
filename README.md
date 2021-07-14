@@ -10,6 +10,7 @@ You can visit the application [here](https://jennilehtonen.github.io/Sportly/). 
 |2. [Technical solutions of the application (in English)](#Technical-solutions)]
 |3. [Description of the application (in Finnish)](#Sportly---Käyttöliittymän-yleiskuvaus)|
 |4. [Technical solutions of the application (in Finnish)](#Tekniset-ratkaisut)|
+|5. [Pictures of the UI](#pictures-of-the-UI)|
 
 
 # Sportly - description of the user interface
@@ -33,3 +34,18 @@ Alla näkyy sovelluksen rakenne kuvina:
 ![documentationPicture2](palautus/activityOsio.PNG "Documentation picture of activity section")<hr />
 ![documentationPicture3](palautus/healthOsio.PNG "Documentation picture of health section")<hr />
 ![documentationPicture4](palautus/sportOsio.PNG "Documentation picture of sport section")
+
+# Pictures of the UI
+Here you can watch a few pictures of the UI. In the top of this README.md you can also find a link to a video of this app.
+
+This is the view when the user opens the app for the first time.
+![activityPage](activityPage1.png "activityPage")
+
+Here is the view when the user has saved some data of their weekly sport routine. The data is saved in to a local storage.
+![activityPage](activityPage2.png "activityPage")
+
+Here the user can calculate their BMI and check if they exercise enough.
+![healthPage](healthPage.png "healthPage")
+
+Here the user can search for sports and read about their benefits. The user can also search for the sport clubs in South Finland by using the map.
+![sportPage](sportPage.png "sportPage")
